@@ -1,0 +1,21 @@
+{
+  "name": "users-microservice",
+  "version": "1.0.0",
+  "description": "Microservice for handle users flow",
+  "keywords": [
+    "microservice"
+  ],
+  "license": "MIT",
+  "author": "DanielRamz",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "moongose": "^1.0.0"
+  }
+}
